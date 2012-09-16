@@ -108,3 +108,6 @@ if( param('ping') ) {
         run( "dig", "+trace", $query );
     }
 }
+
+print "<div style='text-align:right;'><small>&copy;&nbsp;2012&nbsp;Sergey&nbsp;Redin&nbsp;<a href='https://github.com/spiculator/noc-cgi'>https://github.com/spiculator/noc-cgi</small></a></div>\n";
+
