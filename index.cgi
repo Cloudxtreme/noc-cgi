@@ -13,6 +13,9 @@ my %server_names = (
     "noc.1gb.ua"            => "1Gb.ua Kiev TOPNET.ua",
     "frankfurt-noc.1gb.ru"  => "1Gb.ru Frankfurt am Main (Germany)",
     "hetzner-noc.1gb.ru"    => "Hetzner (Germany)",
+    "msk-corbina.noc.1gb.ru"	=> "Corbina (Moscow)",
+    "yar-corbina.noc.1gb.ru"	=> "Corbina (Yaroslavl)",
+    "amazon-us-east-virginia.noc.1gb.ru"	=> "Amazon (East Virginia, USA)",
 );
 my $remote = $ENV{HTTP_X_FORWARDED_FOR} || $ENV{REMOTE_ADDR} || die;
 my $server = $ENV{SERVER_NAME} or die;
